@@ -10,6 +10,16 @@ html{
     font-family: Arial, Helvetica, sans-serif;
   }
   
+
+  header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 40px 10px 40px 10px;
+    
+  }
+
+
   .topnav {
     position:sticky;
     top: 0;
