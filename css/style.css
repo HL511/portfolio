@@ -14,7 +14,7 @@ html{
   header{
     text-align: center;
     text-transform: capitalize;
-    font-size: larger;
+    font-size: 2em;
     padding: 40px 10px 40px 10px;
     
   }
@@ -37,7 +37,7 @@ html{
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
     
   }
   
@@ -60,6 +60,8 @@ html{
   .header h2{
     padding-top:2rem;
   }
+
+
   #gallery {
     height: 800px;
     background-color: yellow;
@@ -72,11 +74,7 @@ html{
     padding: 40px 16px;
   }
   
-  /* #about{
-    height: 800px;
-    background-color: cyan;
-    padding: 40px 16px;
-  }
+ 
    */
   .sectiontext {
     font-family: serif;
@@ -127,3 +125,21 @@ html{
   height: auto;
   border-radius: 8px;
 }
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 480px; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
