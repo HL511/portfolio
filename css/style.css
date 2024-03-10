@@ -87,6 +87,34 @@ html{
     padding: 40px;
   }
 
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh
+}
+
+.text {
+    text-align: center;
+    max-width: 80%;
+    width: 80%;
+    font-size: 18px;
+}
+
+
+.image-container {
+  width: 100%; 
+  text-align: center;
+}
+
+.image {
+  max-width: 100%; 
+  height: auto; 
+}
+  
+
   .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -132,12 +160,15 @@ html{
     position: relative;
     width: 100%;
     max-width: 480px; 
+    align-self: center;
 }
 
 video {
     width: 100%;
     height: auto;
     display: block;
+    align-content: center;
+    justify-content: center;
 }
 
 
